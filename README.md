@@ -8,6 +8,8 @@ Due to the nature of the ballbot firmware, voltage measurements have been redire
 
 Thus, `mbot_oled_display.py` has been updated to subscribe to `MBOT_BALBOT_FEEDBACK`.
 
+This allows for the battery voltage to be properly displayed on the OLED.
+
 ### Installation
 
 Clone this directory. Then `cd` to the scripts subfolder of this directory and run the following:
